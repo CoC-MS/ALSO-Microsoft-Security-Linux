@@ -39,7 +39,7 @@
 Source: Microsoft Learn: https://learn.microsoft.com/nb-no/defender-endpoint/mde-linux-prerequisites#supported-linux-distributions
 
 > [!IMPORTANT]
-> **⚠️ IMPORTANT: Always double up to date information provided in source.**
+> **⚠️ IMPORTANT: Always double check up to date information provided in source.**
 
 ### Works with following licenses
 
