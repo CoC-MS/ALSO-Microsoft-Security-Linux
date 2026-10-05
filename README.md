@@ -131,3 +131,24 @@ Before importing **ALSO_LINUX_SERVER_POLICIES**, ensure the following prerequisi
 
 
 ## Before importing ALSO_LINUX_DESKTOP_POLICIES
+
+## Prerequisites
+
+Before importing **ALSO_LINUX_SERVER_POLICIES**, ensure the following prerequisites are met:
+
+| Requirement | Details |
+|------------|---------|
+| Licensing | Microsoft 365 Business Premium+ Defender Suite, Microsoft 365 E5 or Microsoft 365 E7|
+| Operating System | Verify that your servers meet the minimum supported operating system requirements listed above. |
+| Intune | Microsoft Intune must be deployed and actively used for device management. |
+| Defender Services | Microsoft Defender for Business/ Endpoint must be enabled and your Linux desktop devices are enrolled into Intune. |
+| Permissions | You must have the **Security Administrator** and **Intune Administrator**  roles assigned. |
+
+
+
+
+## Issues? 
+
+Open issue here: https://github.com/CoC-MS/ALSO-Microsoft-Security-Linux/issues
+
+
