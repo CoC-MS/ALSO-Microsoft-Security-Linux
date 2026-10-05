@@ -83,7 +83,7 @@ ALSO – LI – MDBS – Basic – v1.0– Linux – Endpoint Security - Antivir
 | **Assignment** | Assignment scope- device (D) or user (U)|
 
 
-## Before importing ALSO_LINUX_POLICIES
+## Before importing ALSO_LINUX_SERVER_POLICIES
 
 ## Prerequisites
 
@@ -97,7 +97,7 @@ Before importing **ALSO_LINUX_POLICIES**, ensure the following prerequisites are
 | Defender Services | Microsoft Defender for Endpoint and/or Microsoft Defender for Cloud must be enabled and configured in your tenant or subscriptions and all servers needs to be onboarded to Defender with status Onboarded and Active. |
 | Permissions | You must have the **Security Administrator** and **Intune Administrator**  roles assigned. |
 
-## Required Configuration 
+
 
 1. Navigate to: security.microsoft.com -> Settings -> Endpoints -> Enforcement scope and toggle ON this settings. Toggle on Defender for Cloud if you are using Defender for Cloud (Linux servers in Azure or Arc onboarded Linux servers)
 
@@ -122,3 +122,5 @@ Before importing **ALSO_LINUX_POLICIES**, ensure the following prerequisites are
 <img width="2054" height="720" alt="image" src="https://github.com/user-attachments/assets/8ff387df-e28c-4040-8070-28981390030c" />
 
 
+
+## Before importing ALSO_LINUX_DESKTOP_POLICIES
