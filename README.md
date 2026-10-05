@@ -115,12 +115,10 @@ Before importing **ALSO_LINUX_POLICIES**, ensure the following prerequisites are
 > Full documentation is available here:  
 > [Microsoft Defender Security Settings Management Documentation](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/security-settings-management)
 
-## Create dynamic security groups in Entra for assignments
+## Create dynamic security group in Entra for assignments
 
 1. Create dynamic security group to catch your Linux devices
 
-<img width="1731" height="715" alt="image" src="https://github.com/user-attachments/assets/149c3592-76dc-4f7e-9577-79d9fc9fda2f" />
+<img width="2054" height="720" alt="image" src="https://github.com/user-attachments/assets/8ff387df-e28c-4040-8070-28981390030c" />
 
-To split it up in different OS groups, you need to add one more syntax with value for each policy you create. For example one for 2016, 2019 and so on. (Look at table below or in Entra ID -> Device -> Version) 
 
-<img width="1713" height="740" alt="image" src="https://github.com/user-attachments/assets/ce9f2ff7-b263-4ce3-b03d-b8d1d92c6d93" />
