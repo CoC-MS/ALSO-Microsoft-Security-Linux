@@ -10,14 +10,14 @@
 | Resource | Description |
 |-----------|-------------|
 | 🛡️ **Security Information** | [View Security Policy](https://github.com/CoC-MS/ALSO-Microsoft-Security-WindowsServer?tab=security-ov-file) |
-| 📖 **Supported Linux OS** | [View description](https://github.com/CoC-MS/ALSO-Microsoft-Security-WindowsServer?tab=readme-ov-file#supported-and-unsupported-operating-systems-and-scenarios) |
+| 📖 **Supported Linux Server and Desktop OS** | [View description](https://github.com/CoC-MS/ALSO-Microsoft-Security-WindowsServer?tab=readme-ov-file#supported-and-unsupported-operating-systems-and-scenarios) |
 | 📖 **Supported licenses** | [View description](https://github.com/CoC-MS/ALSO-Microsoft-Security-WindowsServer?tab=readme-ov-file#works-with-following-licenses) |
 | 📖 **Before importing ALSO_LINUX_POLICIES** | [View description](https://github.com/CoC-MS/ALSO-Microsoft-Security-WindowsServer?tab=readme-ov-file#before-importing-also_windowsserver_policies) |
 
 ----
 
 
-## ✅ Supported Linux Operating Systems
+## ✅ Supported Linux Server and Desktop Operating Systems
 
 | Operating System | x64 (AMD64/EM64T) | ARM64 |
 |-----------------|-------------------|--------|
@@ -41,13 +41,19 @@ Source: Microsoft Learn: https://learn.microsoft.com/nb-no/defender-endpoint/mde
 > [!IMPORTANT]
 > **⚠️ IMPORTANT: Always double check up to date information provided in source.**
 
-### Works with following licenses
+### Works with following licenses for Servers 
 
 | Tag | Minimum Required License |
 |:---:|--------------------------|
 | **MDBS** | Microsoft 365 Business Premium + Defender for Business for Servers -on-premises servers only (can't have mixed licensing with 2 others below |
 | **MDES** | Microsoft 365 E3 or Microsoft 365 E5 + Defender for Endpoint for Servers - on-premises servers only (can't have mixed licensing with 2 others above and below |
 | **DFS** | Defender for Servers P1 and P2 in Defender for Cloud - works with servers in Azure or Arc onboarded servers (can't have mixed licensing with 2 others above |
+
+### Works with following licenses for Desktops
+
+| Tag | Minimum Required License |
+| **E5** | Microsoft 365 Business Premium + Defender Suite, Microsoft 365 E5 or Microsoft 365 E7
+
 
 ---
 
@@ -76,7 +82,7 @@ ALSO – LI – MDBS – Basic – v1.0– Linux – Endpoint Security - Antivir
 | **MinimumLicense** | Minimum Microsoft license required to use the policy |
 | **BaselineLevel** | Baseline level of policy, Basic, Advanced |
 | **Version** | Policy version, v1.0, v1.1 etc|
-| **Linux** | Operating system |
+| **LinuxDesktop or LinuxServer** | Operating system |
 | **MainCategory** | Name of main category, Device Configuration, Device Compliance etc|
 | **SubCategory** | Name of sub category, MDE, AV, Disk etc|
 | **Settings** | Short settings description |
@@ -87,7 +93,7 @@ ALSO – LI – MDBS – Basic – v1.0– Linux – Endpoint Security - Antivir
 
 ## Prerequisites
 
-Before importing **ALSO_LINUX_POLICIES**, ensure the following prerequisites are met:
+Before importing **ALSO_LINUX_SERVER_POLICIES**, ensure the following prerequisites are met:
 
 | Requirement | Details |
 |------------|---------|
