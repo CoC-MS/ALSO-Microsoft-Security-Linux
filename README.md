@@ -52,6 +52,7 @@ Source: Microsoft Learn: https://learn.microsoft.com/nb-no/defender-endpoint/mde
 ### Works with following licenses for Desktops
 
 | Tag | Minimum Required License |
+|:---:|--------------------------|
 | **E5** | Microsoft 365 Business Premium + Defender Suite, Microsoft 365 E5 or Microsoft 365 E7
 
 
