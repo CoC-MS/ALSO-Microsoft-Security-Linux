@@ -1,4 +1,4 @@
-# 🛡️ ALSO Microsoft Security Linux Server Policy Templates
+# 🛡️ ALSO Microsoft Security Linux Server and Desktop Policy Templates
 > A collection of Microsoft Security Linux Server and Desktop policies to help organizations accelerate secure deployments to servers with Defender for Endpoint, Defender for Servers (Defender for Cloud), Defender Business for Servers and Endpoint for Servers with Intune. 
 
 **Works with Microsoft 365 Business Premium + Defender Suite and Microsoft 365 Business Premium + Defender Business for Servers and up**
