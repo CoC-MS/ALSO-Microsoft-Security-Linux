@@ -49,3 +49,78 @@ Source: Microsoft Learn: https://learn.microsoft.com/nb-no/defender-endpoint/mde
 | **MDES** | Microsoft 365 E3 or Microsoft 365 E5 + Defender for Endpoint for Servers - on-premises servers only (can't have mixed licensing with 2 others above and below |
 | **DFS** | Defender for Servers P1 and P2 in Defender for Cloud - works with servers in Azure or Arc onboarded servers (can't have mixed licensing with 2 others above |
 
+---
+
+## 📖 Naming Convention
+
+All policy templates follow the naming format below:
+
+```text
+<ALSO>-<ImpactLevel>-<MinimumLicense>-<BaselineLevel>-<Version>-<OS>-<Main Category>-<Sub Category>-<Settings>-<Assignment>
+```
+
+### Example
+
+```text
+ALSO – LI – MDBS – Basic – v1.0– Linux – Endpoint Security - Antivirus - AV Configuration - D
+```
+
+---
+
+## 🧩 Naming Components
+
+| Component | Description |
+|-----------|-------------|
+| **ALSO** | Company providing the policy template to have a better control |
+| **Impact** | Impact level of policy, low (LI), medium (MI) or high (HI) |
+| **MinimumLicense** | Minimum Microsoft license required to use the policy |
+| **BaselineLevel** | Baseline level of policy, Basic, Advanced |
+| **Version** | Policy version, v1.0, v1.1 etc|
+| **Linux** | Operating system |
+| **MainCategory** | Name of main category, Device Configuration, Device Compliance etc|
+| **SubCategory** | Name of sub category, MDE, AV, Disk etc|
+| **Settings** | Short settings description |
+| **Assignment** | Assignment scope- device (D) or user (U)|
+
+
+## Before importing ALSO_LINUX_POLICIES
+
+## Prerequisites
+
+Before importing **ALSO_LINUX_POLICIES**, ensure the following prerequisites are met:
+
+| Requirement | Details |
+|------------|---------|
+| Licensing | Microsoft Defender for Business (MDB), Microsoft Defender for Endpoint Server (MDES), or Defender for Servers (DfS) licensing is required. |
+| Operating System | Verify that your servers meet the minimum supported operating system requirements listed above. |
+| Intune | Microsoft Intune must be deployed and actively used for device management. |
+| Defender Services | Microsoft Defender for Endpoint and/or Microsoft Defender for Cloud must be enabled and configured in your tenant or subscriptions and all servers needs to be onboarded to Defender with status Onboarded and Active. |
+| Permissions | You must have the **Security Administrator** and **Intune Administrator**  roles assigned. |
+
+## Required Configuration 
+
+1. Navigate to: security.microsoft.com -> Settings -> Endpoints -> Enforcement scope and toggle ON this settings. Toggle on Defender for Cloud if you are using Defender for Cloud (Linux servers in Azure or Arc onboarded Linux servers)
+
+<img width="1687" height="1227" alt="image" src="https://github.com/user-attachments/assets/7effdd5d-9d55-46fa-bf2e-3ad2998faca5" />
+
+
+2. Navigate to intune.microsoft.com -> Endpoint security > Microsoft Defender for Endpoint, and set Allow Microsoft Defender for Endpoint to enforce Endpoint Security Configurations to On.
+
+<img width="1420" height="862" alt="image" src="https://github.com/user-attachments/assets/88068da1-754f-43d5-85ae-368c5e63b66b" />
+
+> [!IMPORTANT]
+> **⚠️IMPORTANT: Always double check official documentation here:** 
+
+> **Source:** Microsoft Learn  
+> Full documentation is available here:  
+> [Microsoft Defender Security Settings Management Documentation](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/security-settings-management)
+
+## Create dynamic security groups in Entra for assignments
+
+1. Create dynamic security group to catch your Linux devices
+
+<img width="1731" height="715" alt="image" src="https://github.com/user-attachments/assets/149c3592-76dc-4f7e-9577-79d9fc9fda2f" />
+
+To split it up in different OS groups, you need to add one more syntax with value for each policy you create. For example one for 2016, 2019 and so on. (Look at table below or in Entra ID -> Device -> Version) 
+
+<img width="1713" height="740" alt="image" src="https://github.com/user-attachments/assets/ce9f2ff7-b263-4ce3-b03d-b8d1d92c6d93" />
