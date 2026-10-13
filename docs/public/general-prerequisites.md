@@ -31,3 +31,19 @@ Before importing **ALSO_LINUX_SERVER_POLICIES**, ensure the following prerequisi
 
 Before importing **ALSO_LINUX_SERVER_POLICIES**, ensure the following prerequisites are met:
 
+1. Ensure that you are using Intune today and that your Linux desktop devices are enrolled to Intune
+
+# How to enroll Linux Desktop to Intune 
+
+1. On Linux desktop client, download Company portal app + Edge app
+
+2. Download latest version from these site on Linux Desktop client https://github.com/microsoft/shell-intune-samples/tree/master/Linux/Intune%20Installer and follow instructions in readme.md file
+
+3. Once your Linux have been enrolled to Intune, onboard it to Defender by using this guide from Learn https://learn.microsoft.com/en-us/defender-endpoint/linux-install-with-defender-deployment-tool#deployment-step-by-step-guide
+
+4. Check results in Defender portal
+
+5. Once Linux Desktop client are onboarded to Defender and onbaording and health state er ok, you can assign AV and compliance policies to your Linux desktop device group or All devices. 
+
+PS: Per today there are no automated way to onboard all Linux desktop devices to Defender via Intune like Linux Server, MacOS and mobile devices, so manual approach is the only working solution.
+   
