@@ -1,3 +1,5 @@
+# Linux prerequisites
+
 ## ✅ Supported Linux Server and Desktop Operating Systems
 
 | Operating System | x64 (AMD64/EM64T) | ARM64 |

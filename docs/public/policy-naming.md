@@ -1,3 +1,5 @@
+# Policy naming
+
 ## 📖 Naming Convention
 
 All policy templates follow the naming format below:
@@ -6,7 +8,7 @@ All policy templates follow the naming format below:
 <ALSO>-<ImpactLevel>-<MinimumLicense>-<BaselineLevel>-<Version>-<OS>-<Main Category>-<Sub Category>-<Settings>-<Assignment>
 ```
 
-### Example
+## Example
 
 ```text
 ALSO – LI – MDBS – Basic – v1.0– Linux – Endpoint Security - Antivirus - AV Configuration - D
