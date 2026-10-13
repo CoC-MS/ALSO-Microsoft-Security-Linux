@@ -18,7 +18,11 @@
 
 | Tag | Minimum Required License |
 |:---:|--------------------------|
-| **E5** | Microsoft 365 Business Premium + Defender Suite, Microsoft 365 E5 or Microsoft 365 E7
+| **E5** | Microsoft 365 Business Premium + Defender Suite
+| **E5** | Microsoft 365 E5 
+| **E5** | Microsoft 365 E7
+| **E5** | Microsoft 365 F3/F1 + Defender Suite
+
 
 
 | Resource | Description |
