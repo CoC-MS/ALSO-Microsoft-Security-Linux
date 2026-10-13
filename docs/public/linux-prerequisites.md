@@ -1,4 +1,4 @@
-# Linux prerequisites
+# Linux requirements for Desktops and Servers
 
 ## ✅ Supported Linux Server and Desktop Operating Systems
 
