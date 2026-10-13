@@ -1,0 +1,30 @@
+## 📖 Naming Convention
+
+All policy templates follow the naming format below:
+
+```text
+<ALSO>-<ImpactLevel>-<MinimumLicense>-<BaselineLevel>-<Version>-<OS>-<Main Category>-<Sub Category>-<Settings>-<Assignment>
+```
+
+### Example
+
+```text
+ALSO – LI – MDBS – Basic – v1.0– Linux – Endpoint Security - Antivirus - AV Configuration - D
+```
+
+---
+
+## 🧩 Naming Components
+
+| Component | Description |
+|-----------|-------------|
+| **ALSO** | Company providing the policy template to have a better control |
+| **Impact** | Impact level of policy, low (LI), medium (MI) or high (HI) |
+| **MinimumLicense** | Minimum Microsoft license required to use the policy |
+| **BaselineLevel** | Baseline level of policy, Basic, Advanced |
+| **Version** | Policy version, v1.0, v1.1 etc|
+| **LinuxDesktop or LinuxServer** | Operating system |
+| **MainCategory** | Name of main category, Device Configuration, Device Compliance etc|
+| **SubCategory** | Name of sub category, MDE, AV, Disk etc|
+| **Settings** | Short settings description |
+| **Assignment** | Assignment scope- device (D) or user (U)|

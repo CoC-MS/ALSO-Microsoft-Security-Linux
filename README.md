@@ -3,21 +3,14 @@
 
 **Works with Microsoft 365 Business Premium + Defender Suite and Microsoft 365 Business Premium + Defender Business for Servers and up**
 
----
 
 > [!IMPORTANT]
-> **⚠️ IMPORTANT: Read this before importing and using any policies.**
+> **⚠️ IMPORTANT: [Read this before importing and using any policies.](docs/public/README.md)**
 
 | Resource | Description |
 |-----------|-------------|
 | 🛡️ **[Security Information](SECURITY)** | [View Security Policy](SECURITY) |
-| 📖 **[Supported Linux Server and Desktop OS](docs/public/README.md#-supported-linux-server-and-desktop-operating-systems)** | [View description](docs/public/README.md#-supported-linux-server-and-desktop-operating-systems) |
-| 📖 **[Supported licenses](docs/public/README.md#works-with-following-licenses-for-servers)** | [View description](docs/public/README.md#works-with-following-licenses-for-servers) |
-| 📖 **[Before importing ALSO_LINUX_SERVER_POLICIES](ALSO_LINUX_SERVER)** | [View description](docs/public/README.md#before-importing-also_linux_server_policies) |
-| 📖 **[Before importing ALSO_LINUX_DESKTOP_POLICIES](docs/public/README.md#before-importing-also_linux_desktop_policies)** | [View description](docs/public/README.md#before-importing-also_linux_desktop_policies) |
-
----
-
-## Issues? 
-
-Open issue here: https://github.com/CoC-MS/ALSO-Microsoft-Security-Linux/issues
+| 📖 **[Supported Linux Server and Desktop OS](docs/public/platform-prerequisites.md#-supported-linux-server-and-desktop-operating-systems)** | [View description](docs/public/platform-prerequisites.md#-supported-linux-server-and-desktop-operating-systems) |
+| 📖 **[Supported licenses](docs/public/platform-prerequisites.md#works-with-following-licenses-for-servers)** | [View description](docs/public/platform-prerequisites.md#works-with-following-licenses-for-servers) |
+| 📖 **[Before importing ALSO_LINUX_SERVER_POLICIES](ALSO_LINUX_SERVER)** | [View description](docs/public/general-prerequisites.md#before-importing-also_linux_server_policies) |
+| 📖 **[Before importing ALSO_LINUX_DESKTOP_POLICIES](docs/public/general-prerequisites.md#before-importing-also_linux_desktop_policies)** | [View description](docs/public/general-prerequisites.md#before-importing-also_linux_desktop_policies) |
