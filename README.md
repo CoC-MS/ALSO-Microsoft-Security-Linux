@@ -22,7 +22,7 @@
 | **E5** | Microsoft 365 E5 
 | **E5** | Microsoft 365 E7
 | **E5** | Microsoft 365 E3 + Defender Suite
-| **E5** | Microsoft 365 F3/F1 + Defender Suite
+| **E5** | Microsoft 365 F3/F1 + Defender Suite FLW
 
 
 | Resource | Description |
