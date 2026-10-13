@@ -27,9 +27,6 @@ Before importing **ALSO_LINUX_SERVER_POLICIES**, ensure the following prerequisi
 
 ## Before importing ALSO_LINUX_DESKTOP_POLICIES
 
-## Prerequisites
-
-Before importing **ALSO_LINUX_SERVER_POLICIES**, ensure the following prerequisites are met:
 
 1. Ensure that you are using Intune today and that your Linux desktop devices are enrolled to Intune
 
