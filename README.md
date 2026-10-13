@@ -27,8 +27,8 @@
 | --- | --- |
 | 📚 **[Documentation index](docs/public/README.md)** | Browse all deployment documentation. |
 | 📖 **[Policy and configuration descriptions](docs/public/policy-collections.md)** | Review the preserved descriptions of every workload collection. |
-| 🐧 **[Linux prerequisites](docs/public/linux-prerequisites.md)** | Device types and OS versions supported |
-| 🚀 **[General prerequisites](docs/public/general-prerequisites.md)** | Review roles, licensing, prepare Intune and Defender. |
+| 🐧 **[Linux requrements for Desktop and Servers](docs/public/linux-prerequisites.md)** | Device types and OS versions supported |
+| 🚀 **[General prerequisites for Desktop og Server versions](docs/public/general-prerequisites.md)** | Review roles, licensing, prepare Intune and Defender. |
 | 🧩 **[Dependencies prerequisites](docs/public/dependencies-and-errors.md)** | Review required configuration, assignments, and Linux Server DeviceOSVersion values. |
 | 📖 **[Policy naming](docs/public/policy-naming.md)** | Understand licence tags and naming components. |
 | 📂 **[File structure](docs/public/file-structure.md)** | Find the package and policy files. |
