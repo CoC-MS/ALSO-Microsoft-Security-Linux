@@ -21,17 +21,3 @@ Source: Microsoft Learn: https://learn.microsoft.com/nb-no/defender-endpoint/mde
 
 > [!IMPORTANT]
 > **⚠️ IMPORTANT: Always double check up to date information provided in source.**
-
-### Works with following licenses for Servers 
-
-| Tag | Minimum Required License |
-|:---:|--------------------------|
-| **MDBS** | Microsoft 365 Business Premium + Defender for Business for Servers -on-premises servers only (can't have mixed licensing with 2 others below |
-| **MDES** | Microsoft 365 E3 or Microsoft 365 E5 + Defender for Endpoint for Servers - on-premises servers only (can't have mixed licensing with 2 others above and below |
-| **DFS** | Defender for Servers P1 and P2 in Defender for Cloud - works with servers in Azure or Arc onboarded servers (can't have mixed licensing with 2 others above |
-
-### Works with following licenses for Desktops
-
-| Tag | Minimum Required License |
-|:---:|--------------------------|
-| **E5** | Microsoft 365 Business Premium + Defender Suite, Microsoft 365 E5 or Microsoft 365 E7
