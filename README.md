@@ -3,19 +3,10 @@
 
 **Works with Microsoft 365 Business Premium + Defender Suite and Microsoft 365 Business Premium + Defender Business for Servers and up**
 
+---
 
 > [!IMPORTANT]
 > **⚠️ IMPORTANT: Read this before importing and using any policies.**
-
-| Resource | Description |
-|-----------|-------------|
-| 🛡️ **Security Information** | [View Security Policy](https://github.com/CoC-MS/ALSO-Microsoft-Security-WindowsServer?tab=security-ov-file) |
-| 📖 **Supported Linux Server and Desktop OS** | [View description](https://github.com/CoC-MS/ALSO-Microsoft-Security-WindowsServer?tab=readme-ov-file#supported-and-unsupported-operating-systems-and-scenarios) |
-| 📖 **Supported licenses** | [View description](https://github.com/CoC-MS/ALSO-Microsoft-Security-WindowsServer?tab=readme-ov-file#works-with-following-licenses) |
-| 📖 **Before importing ALSO_LINUX_SERVER_POLICIES** | [View description](https://github.com/CoC-MS/ALSO-Microsoft-Security-WindowsServer?tab=readme-ov-file#before-importing-also_windowsserver_policies) |
-| 📖 **Before importing ALSO_LINUX_DESKTOP_POLICIES** | [View description](https://github.com/CoC-MS/ALSO-Microsoft-Security-WindowsServer?tab=readme-ov-file#before-importing-also_windowsserver_policies) |
-----
-
 
 ## ✅ Supported Linux Server and Desktop Operating Systems
 
@@ -58,37 +49,15 @@ Source: Microsoft Learn: https://learn.microsoft.com/nb-no/defender-endpoint/mde
 
 ---
 
-## 📖 Naming Convention
-
-All policy templates follow the naming format below:
-
-```text
-<ALSO>-<ImpactLevel>-<MinimumLicense>-<BaselineLevel>-<Version>-<OS>-<Main Category>-<Sub Category>-<Settings>-<Assignment>
-```
-
-### Example
-
-```text
-ALSO – LI – MDBS – Basic – v1.0– Linux – Endpoint Security - Antivirus - AV Configuration - D
-```
+| Resource | Description |
+|-----------|-------------|
+| 🛡️ **[Security Information](SECURITY)** | [View Security Policy](SECURITY) |
+| 📖 **[Supported Linux Server and Desktop OS](#-supported-linux-server-and-desktop-operating-systems)** | [View description](#-supported-linux-server-and-desktop-operating-systems) |
+| 📖 **[Supported licenses](#works-with-following-licenses-for-servers)** | [View description](#works-with-following-licenses-for-servers) |
+| 📖 **[Before importing ALSO_LINUX_SERVER_POLICIES](ALSO_LINUX_SERVER)** | [View description](#before-importing-also_linux_server_policies) |
+| 📖 **[Before importing ALSO_LINUX_DESKTOP_POLICIES](#before-importing-also_linux_desktop_policies)** | [View description](#before-importing-also_linux_desktop_policies) |
 
 ---
-
-## 🧩 Naming Components
-
-| Component | Description |
-|-----------|-------------|
-| **ALSO** | Company providing the policy template to have a better control |
-| **Impact** | Impact level of policy, low (LI), medium (MI) or high (HI) |
-| **MinimumLicense** | Minimum Microsoft license required to use the policy |
-| **BaselineLevel** | Baseline level of policy, Basic, Advanced |
-| **Version** | Policy version, v1.0, v1.1 etc|
-| **LinuxDesktop or LinuxServer** | Operating system |
-| **MainCategory** | Name of main category, Device Configuration, Device Compliance etc|
-| **SubCategory** | Name of sub category, MDE, AV, Disk etc|
-| **Settings** | Short settings description |
-| **Assignment** | Assignment scope- device (D) or user (U)|
-
 
 ## Before importing ALSO_LINUX_SERVER_POLICIES
 
@@ -145,10 +114,44 @@ Before importing **ALSO_LINUX_SERVER_POLICIES**, ensure the following prerequisi
 | Permissions | You must have the **Security Administrator** and **Intune Administrator**  roles assigned. |
 
 
+---
+
+## 📖 Naming Convention
+
+All policy templates follow the naming format below:
+
+```text
+<ALSO>-<ImpactLevel>-<MinimumLicense>-<BaselineLevel>-<Version>-<OS>-<Main Category>-<Sub Category>-<Settings>-<Assignment>
+```
+
+### Example
+
+```text
+ALSO – LI – MDBS – Basic – v1.0– Linux – Endpoint Security - Antivirus - AV Configuration - D
+```
+
+---
+
+## 🧩 Naming Components
+
+| Component | Description |
+|-----------|-------------|
+| **ALSO** | Company providing the policy template to have a better control |
+| **Impact** | Impact level of policy, low (LI), medium (MI) or high (HI) |
+| **MinimumLicense** | Minimum Microsoft license required to use the policy |
+| **BaselineLevel** | Baseline level of policy, Basic, Advanced |
+| **Version** | Policy version, v1.0, v1.1 etc|
+| **LinuxDesktop or LinuxServer** | Operating system |
+| **MainCategory** | Name of main category, Device Configuration, Device Compliance etc|
+| **SubCategory** | Name of sub category, MDE, AV, Disk etc|
+| **Settings** | Short settings description |
+| **Assignment** | Assignment scope- device (D) or user (U)|
+
+
+---
+
 
 
 ## Issues? 
 
 Open issue here: https://github.com/CoC-MS/ALSO-Microsoft-Security-Linux/issues
-
-
