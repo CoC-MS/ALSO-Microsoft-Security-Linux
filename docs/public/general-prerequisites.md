@@ -33,7 +33,7 @@ Before importing **ALSO_LINUX_SERVER_POLICIES**, ensure the following prerequisi
 
 1. Ensure that you are using Intune today and that your Linux desktop devices are enrolled to Intune
 
-# How to enroll Linux Desktop to Intune 
+How to enroll Linux Desktop to Intune 
 
 1. On Linux desktop client, download Company portal app + Edge app
 
