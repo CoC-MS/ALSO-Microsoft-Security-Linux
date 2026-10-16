@@ -9,10 +9,8 @@
 <a id="getting-started"></a>
 ## 🚀 Getting started
 
-1. ✅ Review [General prerequisites for Desktop og Server versions](docs/public/general-prerequisites.md) and [Linux requirements for Desktop and Servers](docs/public/linux-prerequisites.md).
-2. 📂 [Download the repository ZIP](https://github.com/CoC-MS/ALSO-Microsoft-Security-Linux/archive/refs/heads/main.zip) and extract it.
-3. 📥 [How to import](docs/public/how-to-import.md).
-4. 🚀 Pilot reviewed policies, check policy deployment reports and user impact, then expand in stages.
+1. ✅ Review the [general prerequisites](docs/public/general-prerequisites.md), [Linux requirements](docs/public/linux-prerequisites.md), [dependencies and error handling](docs/public/dependencies-and-errors.md), and the [repository Security overview](https://github.com/CoC-MS/ALSO-Microsoft-Security-Linux/security). Choose exactly one package that matches the [licensing guide](#linux-server-and-desktop-licensing-guide). The only Linux package currently published is [MDBS — Linux Server Defender Antivirus configuration](<ALSO_LINUX_SERVER/SettingsCatalog/ALSO – MI – MDBS – Basic – v1.0 - Linux Server - Defender Antivirus - AV Configuration - D.json>), for on-premises servers licensed with Microsoft 365 Business Premium and Defender for Business for Servers.
+2. 📥 Follow [How to import](docs/public/how-to-import.md) for extraction and import guidance.
 
 For controlled rollouts, we recommend using Microsoft's [deployment plans](https://learn.microsoft.com/en-us/intune/device-management/deployments/overview). This Intune feature is currently in public preview.
 
