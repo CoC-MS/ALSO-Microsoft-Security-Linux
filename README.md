@@ -1,16 +1,16 @@
 # 🛡️ ALSO Microsoft Security Linux Server and Desktop Policy Templates
 > A collection of Microsoft Security Linux Server and Desktop policies to help organizations accelerate secure deployments to servers with Defender for Endpoint, Defender for Servers (Defender for Cloud), Defender Business for Servers and Endpoint for Servers with Intune. 
 
+---
+
 > [!IMPORTANT]
 > **⚠️ IMPORTANT: Read this before importing and using any policies.**
-
----
 
 <a id="getting-started"></a>
 ## 🚀 Getting started
 
-1. ✅ Review the [general prerequisites](docs/public/general-prerequisites.md), [Linux requirements](docs/public/linux-prerequisites.md), [dependencies and error handling](docs/public/dependencies-and-errors.md), and the [repository Security overview](https://github.com/CoC-MS/ALSO-Microsoft-Security-Linux/security). Choose exactly one package that matches the [licensing guide](#linux-server-and-desktop-licensing-guide). The only Linux package currently published is [MDBS — Linux Server Defender Antivirus configuration](<ALSO_LINUX_SERVER/SettingsCatalog/ALSO – MI – MDBS – Basic – v1.0 - Linux Server - Defender Antivirus - AV Configuration - D.json>), for on-premises servers licensed with Microsoft 365 Business Premium and Defender for Business for Servers.
-2. 📥 Follow [How to import](docs/public/how-to-import.md) for extraction and import guidance.
+1. Review the [general prerequisites](docs/public/general-prerequisites.md), [Linux requirements](docs/public/linux-prerequisites.md), [dependencies and error handling](docs/public/dependencies-and-errors.md), and [security information](https://github.com/CoC-MS/ALSO-Microsoft-Security-Linux/security). Choose exactly one package using the licensing guide below: [`ALSO_LINUX_SERVER`](ALSO_LINUX_SERVER).
+2. Follow [How to import](docs/public/how-to-import.md) for extraction and import guidance.
 
 For controlled rollouts, we recommend using Microsoft's [deployment plans](https://learn.microsoft.com/en-us/intune/device-management/deployments/overview). This Intune feature is currently in public preview.
 
@@ -23,7 +23,7 @@ For controlled rollouts, we recommend using Microsoft's [deployment plans](https
 
 | Section | What you will find |
 | --- | --- |
-| [Getting started](#getting-started) | Prerequisites, download, import, and staged rollout. |
+| [Getting started](#getting-started) | Prerequisites, package selection, extraction, and import guidance. |
 | [Linux Server and Desktop licensing guide](#linux-server-and-desktop-licensing-guide) | License compatibility and limitations. |
 | [Documentation](#documentation) | Links to supporting guides and the repository license. |
 
