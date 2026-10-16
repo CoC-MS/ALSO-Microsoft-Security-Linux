@@ -9,8 +9,11 @@
 <a id="getting-started"></a>
 ## 🚀 Getting started
 
-1. Review the [general prerequisites](docs/public/general-prerequisites.md), [Linux requirements](docs/public/linux-prerequisites.md), [dependencies and error handling](docs/public/dependencies-and-errors.md), and [security information](https://github.com/CoC-MS/ALSO-Microsoft-Security-Linux/security). Choose exactly one package using the licensing guide below: [`ALSO_LINUX_SERVER`](ALSO_LINUX_SERVER).
-2. Follow [How to import](docs/public/how-to-import.md) for extraction and import guidance.
+1. Review the [general prerequisites](docs/public/general-prerequisites.md), [Linux requirements](docs/public/linux-prerequisites.md), [dependencies and error handling](docs/public/dependencies-and-errors.md), and [security information](https://github.com/CoC-MS/ALSO-Microsoft-Security-Linux/security).
+2. Choose exactly one package using the licensing guide below: [`ALSO_LINUX_SERVER`](ALSO_LINUX_SERVER).
+3. Follow [How to import](docs/public/how-to-import.md) for extraction and import guidance.
+4. Assign reviewed policies to a pilot group, check policy deployment reports and user impact, then expand in stages.
+
 
 For controlled rollouts, we recommend using Microsoft's [deployment plans](https://learn.microsoft.com/en-us/intune/device-management/deployments/overview). This Intune feature is currently in public preview.
 
