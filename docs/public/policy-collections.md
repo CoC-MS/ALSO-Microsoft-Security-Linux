@@ -9,16 +9,15 @@ This page summarizes the policy exports currently included in the repository. Us
 | Policy | Workload | Platform and scope | Tier and version |
 | --- | --- | --- | --- |
 | [Defender Antivirus - AV Configuration (Advanced)](<../../ALSO_LINUX_SERVER/SettingsCatalog/ALSO – HI – MDBS – Advanced – v1.0 - Linux Server - Defender Antivirus - AV Configuration - D.json>) | Microsoft Defender Antivirus | Linux Server; device policy (`D`) | Advanced; v1.0 |
-| [Defender Antivirus - AV Configuration (Basic)](<../../ALSO_LINUX_SERVER/SettingsCatalog/ALSO – MI – MDBS – Basic – v1.0 - Linux Server - Defender Antivirus - AV Configuration - D.json>) | Microsoft Defender Antivirus | Linux Server; device policy (`D`) | Basic; v1.0 |
 | [Endpoint Security - AV Configuration](<../../ALSO_LINUX_DESKTOP/SettingsCatalog/ALSO- HI- E5- Basic- v.1.0- Linux Desktop- Endpoint Security - AV- AV Configuration - D.json>) | Endpoint Security antivirus | Linux Desktop; device policy (`D`) | Basic; v1.0 |
 | [Compliance - Device encryption](<../../ALSO_LINUX_DESKTOP/CompliancePoliciesV2/ALSO- HI- E5- HI- Basic- v.1.0- Linux Desktop- Compliance- Device encryption - U.json>) | Device compliance | Linux Desktop; user policy (`U`) | Basic; v1.0 |
 | [Compliance - Password Encryption](<../../ALSO_LINUX_DESKTOP/CompliancePoliciesV2/ALSO- HI- E5- HI- Basic- v.1.0- Linux Desktop- Compliance- Password Encryption - U.json>) | Device compliance | Linux Desktop; user policy (`U`) | Basic; v1.0 |
 
-The current collection contains five Intune policy exports across Linux Server and Linux Desktop. The filename tags identify impact and minimum-license categories; see [Policy naming](policy-naming.md) and verify licensing against your tenant's current Microsoft entitlements.
+The current collection contains four Intune policy exports across Linux Server and Linux Desktop. The filename tags identify impact and minimum-license categories; see [Policy naming](policy-naming.md) and verify licensing against your tenant's current Microsoft entitlements.
 
 ## Linux Server Defender Antivirus - AV Configuration
 
-The Basic and Advanced policies configure antivirus, cloud protection, and network protection options for Linux servers managed through Microsoft Intune and Microsoft Defender for Endpoint. Review each export independently because its configured values may differ.
+The Advanced policy configures antivirus, cloud protection, and network protection options for Linux servers managed through Microsoft Intune and Microsoft Defender for Endpoint.
 
 | Area | Configuration in the export |
 | --- | --- |

@@ -11,15 +11,14 @@ This repository contains Linux Server and Desktop policy exports. Policy files a
 | [`ALSO_LINUX_SERVER`](../../ALSO_LINUX_SERVER) | `SettingsCatalog` | Linux Server policies |
 | [`ALSO_LINUX_DESKTOP`](../../ALSO_LINUX_DESKTOP) | `SettingsCatalog`, `CompliancePoliciesV2` | Linux Desktop policies |
 
-The repository currently includes five policy exports: two Linux Server Settings Catalog policies, one Linux Desktop Settings Catalog policy, and two Linux Desktop compliance policies.
+The repository currently includes four policy exports: one Linux Server Settings Catalog policy, one Linux Desktop Settings Catalog policy, and two Linux Desktop compliance policies.
 
 ## 🗂️ Package contents
 
 ```text
 ALSO_LINUX_SERVER/
 └── SettingsCatalog/
-    ├── ALSO – HI – MDBS – Advanced – v1.0 - Linux Server - Defender Antivirus - AV Configuration - D.json
-    └── ALSO – MI – MDBS – Basic – v1.0 - Linux Server - Defender Antivirus - AV Configuration - D.json
+    └── ALSO – HI – MDBS – Advanced – v1.0 - Linux Server - Defender Antivirus - AV Configuration - D.json
 
 ALSO_LINUX_DESKTOP/
 ├── CompliancePoliciesV2/
