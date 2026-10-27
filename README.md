@@ -1,11 +1,5 @@
 # 🛡️ ALSO Microsoft Security Linux Server and Desktop Policy Templates
 
-**Disclaimer:** Licensing prerequisites and feature availability listed on this page may be incorrect, incomplete, or outdated. We strongly recommend verifying all licensing information against the latest official Microsoft licensing documentation before making any purchasing or deployment decisions.
-
-**Enterprise licenses:** [Microsoft Enterprise Plan Comparison](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/bade/documents/products-and-services/en-us/education/Modern-Work-Plan-Comparison-Enterprise.pdf)
-
-**SMB licenses:** [Microsoft SMB Plan Comparison](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/bade/documents/products-and-services/en-us/education/Modern-Work-Plan-Comparison-SMB.pdf)
-
 > A collection of Microsoft Security Linux Server and Desktop policies to help organizations accelerate secure deployments to servers with Defender for Endpoint, Defender for Servers (Defender for Cloud), Defender Business for Servers and Endpoint for Servers with Intune. 
 
 ---
@@ -59,6 +53,8 @@ For controlled rollouts, we recommend using Microsoft's [deployment plans](https
 | **E5** | Microsoft 365 E7
 | **E5** | Microsoft 365 E3 + Defender Suite
 | **E5** | Microsoft 365 F3/F1 + Defender Suite FLW
+
+
 
 
 <a id="documentation"></a>
