@@ -54,7 +54,7 @@ For controlled rollouts, we recommend using Microsoft's [deployment plans](https
 | **E5** | Microsoft 365 E3 + Defender Suite
 | **E5** | Microsoft 365 F3/F1 + Defender Suite FLW
 
-
+**Disclaimer:** Licensing prerequisites and feature availability listed on this page may be incorrect, incomplete, or outdated. We strongly recommend verifying all licensing information against the latest official Microsoft licensing documentation before making any purchasing or deployment decisions. 
 
 Learn more: 
 
