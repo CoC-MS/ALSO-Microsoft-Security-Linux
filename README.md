@@ -17,7 +17,7 @@
 ## 🚀 Getting started
 
 1. Review the [general prerequisites](docs/public/general-prerequisites.md), [Linux requirements](docs/public/linux-prerequisites.md), [dependencies and error handling](docs/public/dependencies-and-errors.md), and [security information](https://github.com/CoC-MS/ALSO-Microsoft-Security-Linux/security).
-2. Choose exactly one package using the licensing guide below: [`ALSO_LINUX_SERVER`](ALSO_LINUX_SERVER).
+2. Choose the package that matches the managed device type: [`ALSO_LINUX_SERVER`](ALSO_LINUX_SERVER) or [`ALSO_LINUX_DESKTOP`](ALSO_LINUX_DESKTOP).
 3. Follow [How to import](docs/public/how-to-import.md) for extraction and import guidance.
 4. Assign reviewed policies to a pilot group, check policy deployment reports and device/server impact, then expand in stages.
 
