@@ -56,6 +56,14 @@ For controlled rollouts, we recommend using Microsoft's [deployment plans](https
 
 
 
+Learn more: 
+
+| Solution | Learn More |
+|----------|------------|
+| Microsoft Defender for Business Servers | [Learn More](https://www.microsoft.com/licensing/terms/productoffering/MicrosoftDefenderforBusinessservers/MCA#ServiceSpecificTerms) |
+| Microsoft Defender for Endpoint for Servers | [Learn More](https://www.microsoft.com/licensing/terms/productoffering/MicrosoftDefenderforEndpointforservers/MCA) |
+| Microsoft Defender for Servers (P1 & P2) | [Learn More](https://www.microsoft.com/licensing/faqs/48) |
+
 
 <a id="documentation"></a>
 ## 📚 Documentation
