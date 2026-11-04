@@ -23,6 +23,18 @@ Before importing **ALSO_LINUX_SERVER_POLICIES**, ensure the following prerequisi
 > Full documentation is available here:  
 > [Microsoft Defender Security Settings Management Documentation](https://learn.microsoft.com/en-us/intune/device-security/microsoft-defender/security-settings-management)
 
+## Create dynamic security groups in Entra for assignments
+
+Before assigning the policies, create dedicated Microsoft Entra security groups that dynamically collect the Linux devices in scope.
+
+1. In the Microsoft Entra admin center, go to **Groups** > **All groups** > **New group**.
+2. Create a **Security** group with **Dynamic Device** membership.
+3. Configure the dynamic membership rule to include the intended Linux devices.
+4. Use separate groups for Linux Server and Linux Desktop devices when their policies or rollout schedules differ.
+5. Validate the group membership before assigning policies, and deploy to a pilot group before expanding the assignment.
+
+<img width="2054" height="720" alt="Example dynamic Microsoft Entra security group for Linux devices" src="https://github.com/user-attachments/assets/8ff387df-e28c-4040-8070-28981390030c" />
+
 
 
 ## Before importing ALSO_LINUX_DESKTOP_POLICIES
